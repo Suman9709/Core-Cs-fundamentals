@@ -1,0 +1,206 @@
+1. What is oops?
+OOps refer to Object Oriented Programming. It is the Programming paradigms that is defined using objects. 
+Object can be considered as real-world instance of entities like class, that have some charactreristics and behaviors.
+
+2. What is the need for OOPs?
+There are many reason why OOPs is mostly prefered, but the most important among theme are:
+    -> Reusability: You can create code once and reuse it in different parts of the program, saving time and effort.
+    -> Modularity: It breaks the code into smaller, manageable parts (called objects), making it easier to understand and maintain.
+    -> Data Security: It protects sensitive data by restricting access through concepts like encapsulation (like keeping private details hidden).
+    -> Flexibility: With inheritance, you can create new features based on existing ones without writing everything from scratch.
+    -> Real-World Representation: OOP allows you to model real-world objects, like a car or a person, in your code, making it more relatable and easier to understand.
+
+3.  What are some other Programming paradigms other than oops?
+Other than OOPs therre are several Programming paradigms, each with it's own approach to solve problems. Here are some of them:
+
+1-> Procedural Programming
+    ->Follow a step by step approach, breaking the program into function or procedures
+    eg:- C language
+2-> Functional Programming
+    -> Focuses on pure function, immutability and avoiding side effects.
+       rg:- Haskell, javascript with library like React
+3-> Declarative Programming
+    -> Focuses on what the program should do, not how it should be done.
+       eg:- SQL, HTML, CSS 
+4-> Imperative Programming
+    -> Directly tells the computer hwo to perform taskd step by step.
+5-> Logical Programming
+    -> Uses logic and rules to infer conclusions
+       eg:- Prolog
+6-> Event-Driven Programming
+    -> Responds to user or system-generated events
+        eg:- js in web development
+
+4. What is meant by Structured Programming?
+Structured Programming is a Programming paradigms that emphasize breaking a program into small, manageable, and logical units or blocks.
+It follows a top-down approach, where a problem is divided into samller sub-problems or modules which can be solved independently
+
+Key Features:
+-> Sequentail Execution: Code is executed step by step in a logical flow 
+-> use of control structures: It relies on control structures like
+        -> Sequence
+        -> Selection
+        -> Iteration
+        -> No Goto Statement: it avoid the use of goto Statement, which lead to difficult to follow code
+-> Modularity: The program is divided inti smaller, resuable function or procedures.
+-> Imporved Readability and Maintainability: Since the code is organized in a structured mannner, it's easier to understand and debug
+
+
+5. What are the main features of OOPs?
+OOPs or Object Oriented Programming mainly comprise of the below four features and make sure yoou don't miss any of these:
+    -> Inheritance
+    -> Encapsulation
+    -> Polymorphism
+    -> Data Abstraction
+
+6. What are some advantages of using OOPs?
+    -> Code Reusability(Inheritance)
+        ->you can create new classes based on existing ones, saveing time and effort.
+    ->Data Security(Encapsulation)
+        -> Protects data by keeping it private and only accessible through methods.
+    -> Improved Code organisation (Modularity)
+        -> Dividde the code int o objects and classes, making it easier to manage and debug
+    -> Code Flexibility(Polymorphism)
+        -> Allow objects to behave differently based on tthe context.
+    -> Real World Modeling
+        -> Mimics real-world object and behav, making the code mre intutive and easir to understand.
+        eg:- A BankAccount class can have attributes like balance and methods like deposit() and withdraw().
+
+7. What si Class?
+In OOPs a class is like a blueprint or template used to create objects. It contains some values,
+known as member data or member, and some set of rules, known as behaviors or
+functions.So when an object is created, it automatically takes the data and functions
+that are defined in the class.
+
+8. What is Object?
+An object refers to the instance of the class, which contains the instance of the members and behaviors defined in the class template.
+In the real world, an object is an actual entity to which a user interact, whereas class is just the blueprint for that object. 
+
+9.  What is encapsulation?
+Encapsulation is one of the core concepts of Object Oriented Programming that involves hiding the internal details of an objects and restricting direct access of its data.
+One can visualize Encapsulation as the method of putting everything that is required
+to do the job, inside a capsule and presenting that capsule to the user. What it means
+is that by Encapsulation, all the necessary data and methods are bind together and
+all the unnecessary details are hidden to the normal user. So Encapsulation is the
+process of binding data members and methods of a program together to do a specific
+job, without revealing unnecessary details
+
+Why Encapsulation important?
+-> Protect sensitive data from unauthorized access
+-> Prevents accidental modifications of data
+-> Imporve security and code maintainability
+
+1-> Data Hiding:- Encapsulation is the process of  hiding unwanted information such as, restricting access to any members of an object.
+2-> Data binding: Encapsulation is the process of binding the data members and the
+methods together as a whole, as a class.
+
+
+10. What is Polymorphism?
+Polymorphism is composed of two words - “poly” which means “many”, and “morph”
+which means “shapes”. Therefore Polymorphism refers to something that has many
+shapes.
+In OOPs, Polymorphism refers to the process by which some code, data, method, or
+object behaves differently under different circumstances or contexts. Compile-time
+polymorphism and Run time polymorphism are the two types of polymorphisms in
+OOPs languages
+
+
+Two type of PolyMorphism is 
+->Compile time
+->RUn time
+
+11. What is Compile time Polymorphism and how is it different
+from Runtime Polymorphism?
+Compile time polymorphism: It is also known as Static
+Polymorphism, refers to the type of Polymorphism that happens at compile time.
+What it means is that the compiler decides what shape or value has to be taken by
+the entity in the picture.
+Runtime Polymorphism: Runtime polymorphism, also known as Dynamic
+Polymorphism, refers to the type of Polymorphism that happens at the run time.
+What it means is it can't be decided by the compiler. Therefore what shape or value
+has to be taken depends upon the execution. Hence the name Runtime
+Polymorphism.
+
+12. How does C++ support Polymorphism?
+C++ is an Object-oriented programming language and it supports Polymorphism as
+well:
+Compile Time Polymorphism: C++ supports compile-time polymorphism with
+the help of features like templates, function overloading, and default
+arguments.
+Runtime Polymorphism: C++ supports Runtime polymorphism with the help of
+features like virtual functions. Virtual functions take the shape of the functions
+based on the type of object in reference and are resolved at runtime.
+
+
+13. What is meant by Inheritance?
+Inheritance is a key concept of Object-Oriented Programming (OOP) that allows a child class (derived class) to inherit properties and methods from a parent class (base class).
+
+Why is inheritance  important?
+    -> Code Reusability: Avoids code duplication by reusing code from the base class.
+    -> Improved Code Structure: Provides a hierarchical relationship between classes.
+    -> Extensibility: Allows adding new features to the child class without modifying the base class.
+
+14. What is Abstraction?
+If you are a user, and you have a problem statement, you don't want to know how the
+components of the soware work, or how it's made. You only want to know how the
+soware solves your problem. Abstraction is the method of hiding unnecessary
+details from the necessary ones. It is one of the main features of OOPs.
+For example, consider a car. You only need to know how to run a car, and not how the
+wires are connected inside it. This is obtained using Abstraction.
+
+why is Abstraction important?
+    -> Reduces complexity.
+    -> Improves security by hiding sensitive data.
+    -> Enhances code maintainability.
+
+15. How much memory does a class occupy?
+In C++, the memory occupied by a class itself is zero,
+but when an object of the class is created, the memory is allocated based on the class's data members and additional factors like virtual functions.
+
+Factor affecting memory size
+    -> Data members (variables): The size depends on the data types used (e.g., int, float, char, etc.).
+    -> Padding and alignment: The compiler adds padding for memory alignment, which can increase size.
+    -> Virtual functions: If a class has virtual functions, a vtable pointer (usually 8 bytes) is added to each object.
+    -> Static members: These are stored in static memory and not within the object itself.
+
+16. Is it always necessary to create objects from class?
+No. An object is necessary to be created if the base class has non-static methods. But
+if the class has static methods, then objects don’t need to be created. You can call the
+class method directly in this case, using the class name.
+
+
+17. What is COnstructor?
+A Constructor is a special member function in C++ that is automatically called when an object of the class is created.
+
+Key Characteristics of Constructor:
+    ->Same name as the class name.
+    ->No return type (not even void).
+    ->Automatically invoked when an object is created.
+    ->Used to initialize objects.
+
+
+18. What are the various types of constructors in C++?
+
+Default Constructor:- Initializes objects with default values.
+Parameterized Constructor:- Allows passing arguments during object creation.
+Copy Constructor:- Creates a copy of an existing object.
+
+19. What is a copy constructor?
+Copy Constructor is a type of constructor, whose purpose is to copy an object to
+another. What it means is that a copy constructor will clone an object and its values,
+into another object, is provided that both the objects are of the same class.
+
+20. What is a destructor?
+A Destructor in C++ is a special member function that is automatically called when an object goes out of scope or is explicitly deleted.
+
+Why Do We Need a Destructor?
+    ->To free up memory allocated dynamically.
+    ->To close file handles or database connections.
+    ->To release resources like network sockets.
+
+Important Points:
+-> If the user doesn't define a destructor, the C++ compiler provides a default destructor.
+-> A virtual destructor is used in inheritance to ensure proper destruction of derived class objects.
+
+21. Are class and structure the same? If not, what's the
+difference between a class and a structure?

@@ -1,0 +1,45 @@
+Basic Interview Question of OOPs
+
+1. What is oops?
+2. What is the use oops?
+3. What are some major Object Oriented Programming Languages?
+4. What are some other Programming paradigms other than oops?
+5. What is meant by structured Programming?
+6. What are the main features of OOPs?
+7. What are some advantage of using OOPs?
+8. Why is OOPs so popular?
+
+Advance OOPs Interview Questions
+
+9. What is Class?
+10. What is Object?
+11. What us encaplusation?
+12. What is Polymorphism?
+13. What is Compile time Polymorphism and how it is different from runtime Polymorphism?
+14. How does C++ support Ploymorphism?
+15. What is meant by Inheritance?
+16. What is Abstraction?
+17. How much memory does a class occupy?
+18. Is it always necessary to create object from class?
+19. What is Constructor?
+20. What are the various types of constructors in C++?
+21. What is a copy constructor?
+22. What is destructor?
+23. Are class and structure the same? if not, what's the difference between a c and a structure?
+24. Explain inheritance with example?
+25. Are there any limitations of heritance?
+26. What are the various types of inheritance?
+27. What is a subclass?
+28. Define a superclass?
+29. Wha is interface?
+30. What is meant by static Polymorphism?
+31. What is meant by dynamic polymorphism?
+32. What us the difference between overloading and overriding?
+33. Ho wis data abstraction accomplished?
+31. What is an abstract class?
+35. How is an abstract class different from an interface?
+36. What are the access specifiers and what is their significance?
+37. What is exception?
+38. What  is exception handling?
+39. What is meant by Grabage Collection is OOPs world?
+40. Can we run a JAVA Application without implementing the OOPs concept?
