@@ -11,19 +11,19 @@ There are many reason why OOPs is mostly prefered, but the most important among 
     -> Real-World Representation: OOP allows you to model real-world objects, like a car or a person, in your code, making it more relatable and easier to understand.
 
 3.  What are some other Programming paradigms other than oops?
-Other than OOPs therre are several Programming paradigms, each with it's own approach to solve problems. Here are some of them:
+Other than OOPs there are several Programming paradigms, each with it's own approach to solve problems. Here are some of them:
 
 1-> Procedural Programming
     ->Follow a step by step approach, breaking the program into function or procedures
     eg:- C language
 2-> Functional Programming
     -> Focuses on pure function, immutability and avoiding side effects.
-       rg:- Haskell, javascript with library like React
+       eg:- Haskell, javascript with library like React
 3-> Declarative Programming
     -> Focuses on what the program should do, not how it should be done.
        eg:- SQL, HTML, CSS 
 4-> Imperative Programming
-    -> Directly tells the computer hwo to perform taskd step by step.
+    -> Directly tells the computer how to perform task step by step.
 5-> Logical Programming
     -> Uses logic and rules to infer conclusions
        eg:- Prolog
@@ -61,12 +61,12 @@ OOPs or Object Oriented Programming mainly comprise of the below four features a
     -> Improved Code organisation (Modularity)
         -> Dividde the code int o objects and classes, making it easier to manage and debug
     -> Code Flexibility(Polymorphism)
-        -> Allow objects to behave differently based on tthe context.
+        -> Allow objects to behave differently based on the context.
     -> Real World Modeling
         -> Mimics real-world object and behav, making the code mre intutive and easir to understand.
         eg:- A BankAccount class can have attributes like balance and methods like deposit() and withdraw().
 
-7. What si Class?
+7. What is Class?
 In OOPs a class is like a blueprint or template used to create objects. It contains some values,
 known as member data or member, and some set of rules, known as behaviors or
 functions.So when an object is created, it automatically takes the data and functions
@@ -91,8 +91,7 @@ Why Encapsulation important?
 -> Imporve security and code maintainability
 
 1-> Data Hiding:- Encapsulation is the process of  hiding unwanted information such as, restricting access to any members of an object.
-2-> Data binding: Encapsulation is the process of binding the data members and the
-methods together as a whole, as a class.
+2-> Data binding: Encapsulation is the process of binding the data members and the methods together as a whole, as a class.
 
 
 10. What is Polymorphism?
@@ -107,29 +106,25 @@ OOPs languages
 
 Two type of PolyMorphism is 
 ->Compile time
-->RUn time
+->Run time
 
-11. What is Compile time Polymorphism and how is it different
-from Runtime Polymorphism?
-Compile time polymorphism: It is also known as Static
-Polymorphism, refers to the type of Polymorphism that happens at compile time.
-What it means is that the compiler decides what shape or value has to be taken by
-the entity in the picture.
-Runtime Polymorphism: Runtime polymorphism, also known as Dynamic
-Polymorphism, refers to the type of Polymorphism that happens at the run time.
+11. What is Compile time Polymorphism and how is it different from Runtime Polymorphism?
+Compile time polymorphism: It is also known as Static Polymorphism, refers to the type of Polymorphism that happens at compile time.
+What it means is that the compiler decides what shape or value has to be taken by the entity in the picture.
+
+Runtime Polymorphism: Runtime polymorphism, also known as Dynamic Polymorphism, refers to the type of Polymorphism that happens
+at the run time.
 What it means is it can't be decided by the compiler. Therefore what shape or value
-has to be taken depends upon the execution. Hence the name Runtime
-Polymorphism.
+has to be taken depends upon the execution. Hence the name Runtime Polymorphism.
 
 12. How does C++ support Polymorphism?
 C++ is an Object-oriented programming language and it supports Polymorphism as
 well:
-Compile Time Polymorphism: C++ supports compile-time polymorphism with
-the help of features like templates, function overloading, and default
-arguments.
-Runtime Polymorphism: C++ supports Runtime polymorphism with the help of
-features like virtual functions. Virtual functions take the shape of the functions
-based on the type of object in reference and are resolved at runtime.
+Compile Time Polymorphism: C++ supports compile-time polymorphism with the help of features like templates, 
+function overloading, and default arguments.
+
+Runtime Polymorphism: C++ supports Runtime polymorphism with the help of features like virtual functions. 
+Virtual functions take the shape of the functions based on the type of object in reference and are resolved at runtime.
 
 
 13. What is meant by Inheritance?
@@ -142,8 +137,8 @@ Why is inheritance  important?
 
 14. What is Abstraction?
 If you are a user, and you have a problem statement, you don't want to know how the
-components of the soware work, or how it's made. You only want to know how the
-soware solves your problem. Abstraction is the method of hiding unnecessary
+components of the software work, or how it's made. You only want to know how the
+software solves your problem. Abstraction is the method of hiding unnecessary
 details from the necessary ones. It is one of the main features of OOPs.
 For example, consider a car. You only need to know how to run a car, and not how the
 wires are connected inside it. This is obtained using Abstraction.
@@ -204,3 +199,124 @@ Important Points:
 
 21. Are class and structure the same? If not, what's the
 difference between a class and a structure?
+
+-> No, class and structure are not same. Through they appear to be similar, they have difference that makes them apart. 
+eg-> the structure is saved in the stack memory whereas the class is saved in heap memory.  Also data abstraction cannot be achived with the help of structure but with class, Abstraction majorily used.
+
+
+23. Explain Inheritance?
+-> Inheritance is one of the majot features of oops by  which an entity inherit some Characteristics and behaviour of some other entity and makes them their own. Inheritance helps to improve and facilitate code reuse.
+
+24. Are there any limitations of inheritance?
+-> Yes, with more power comes more complications. Inheritance is very powerful features in OOPs, but it has some limitations too.
+   -> Inheritance need more time to navigate through multiple classes for its implementation.
+   -> The class involved in inheritance- the base class and the child class, are very tightly coupled together. so if one needs to do nested changes in both classes.
+   -> Inheritance might be complex for implementation, as well.
+
+25. What are the various types of inheritance?
+The various types of inheritance include:-
+    1) Single inheritance
+        A subclass inherits from a single base class.
+    2) Multiple inheritance
+        A subclass inherits from more than one base class.
+    3) multi-level inheritance
+        A class derives from another derived class (a chain of inheritance).
+        Example: Grandparent → Parent → Child.
+    4) hierarchical inheritance
+        Multiple subclasses inherit from a single base class.
+        Example: Dog, Cat, and Horse all inheriting from Animal
+    5) Hybrid inheritance.
+        A combination of two or more types of inheritance (like multiple and hierarchical).
+
+26. What is subClass?
+    -> The subclass is a part of inheritance. It is an entity which inherit from another class. it is also known as child class.
+
+27. What is super Class?
+    -> The super class is a part of inheritance. It is an entity which allow subclass or child class to inherit from itself.
+
+28. What is interface?
+    -> To create an interface, first we need to understand the rules that governs the behaviour of interface:
+
+        -> Interface only contains the declaration of the methods not definition.
+        -> Interface methods must be declared public.
+        -> Any class can implement/inherit any interface.
+        -> The implementing class must provide the definition of the methods.
+        -> Instance of interface cannot be created.
+
+29. What is difference between function overloading and function overriding?
+    Function Overloading (Same name, different parameters – in same class)
+        Definition:
+        When you have multiple functions with the same name in the same class, but they have different number or types of parameters, it's called Function Overloading.
+        NOTE:- It happens in Compile Time.
+
+
+    Function Overriding (Same name, same parameters – in different classes with inheritance)
+        Definition:
+        When a child class has a function with the same name and same parameters as a function in the parent class, it is called Function Overriding.
+        NOTE:- It happens in Run Time.
+
+
+30. What is an Abstract Class (in Simple Language)
+    An abstract class is a blueprint for other classes. You cannot create an object of an abstract class. It is used when you want to 
+    provide a base structure that other classes must follow, but you leave some details to be filled in later (by the child classes).
+
+    Key Points:
+    An abstract class has at least one pure virtual function.
+    It is used in inheritance.
+    You cannot make objects of an abstract class.
+    Child classes must implement the abstract (pure virtual) functions.
+
+31.  How is an abstract class different from an interface?
+
+| Feature              | **Abstract Class**                                                                               | **Interface**                                                                                                                   |
+| -------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
+| **Purpose**          | Acts as a partial blueprint – allows some methods to be defined, some left for child classes     | Acts as a **complete contract** – all methods are to be implemented by child classes                                            |
+| **Contains**         | Can have abstract (pure virtual) and **concrete** methods (with code)                            | Contains **only abstract methods** (in C++). In Java 8+, it can have default/static methods too                                 |
+| **Object Creation**  | Cannot create objects                                                                            | Cannot create objects                                                                                                           |
+| **Inheritance**      | A class can inherit only one abstract class in C++                                               | A class can implement **multiple interfaces**                                                                                   |
+| **Access Modifiers** | Can have any: `public`, `protected`, `private`                                                   | All methods are **public** by default (in Java). In C++, no such keyword — just abstract class with only pure virtual functions |
+
+
+32. What are access specifiers and what is their significance?
+
+    Access Specifiers in C++ (and other OOP languages like Java) define the visibility or access level of class members (variables and functions) from outside the class.
+    They control who can access what in a program.
+
+    The 3 Main Access Specifiers in C++:
+            Access Specifier |	Accessible Within Class |	Accessible in Derived Class |	Accessible Outside Class
+            public	         |  ✅ Yes	               |          ✅ Yes              |            ✅ Yes  
+            protected        |	✅ Yes		           |          ✅ Yes              |            ❌ No
+            private          |	✅ Yes	               |          ❌ No               |            ❌ No
+
+        Simple Meaning:
+        public – "Everyone can access it"
+        private – "Only I (the class) can access it"
+        protected – "I and my children (derived classes) can access it"
+
+33. What is an exception?
+->  An exception is an unexpected error that occurs during the execution of a program.
+    It interrupts the normal flow of the program. Instead of the program crashing, we can catch the exception and handle it gracefully.
+
+34. What is meant by exception handling?
+->  Exception Handling means catching and managing errors that happen while the program is running, so the program doesn’t crash and can continue or end gracefully.
+
+    It’s like putting a safety net in your program.
+    If something goes wrong, instead of crashing, the program jumps to the safety net (error-handling code).
+
+35. What is meant by Garbage Collection in OOPs world?
+->  Garbage Collection is the process of automatically freeing up memory that is no longer being used by the program.
+
+In simple words:
+"Garbage Collection" means deleting or cleaning up unused objects from memory to keep your program efficient and avoid memory leaks.
+
+36. Why is it needed?
+->  In Object-Oriented Programming (OOP), we create a lot of objects.
+    Some of them are no longer needed after a certain point.
+    If we don't delete them, they stay in memory and waste space (this is called a memory leak).
+
+37. How Garbage Collection Helps:
+    Without GC	With GC
+    You must manually free memory	Memory is automatically freed
+    Easy to forget or misuse	Safe and automated
+    Risk of memory leaks	Reduces memory leaks
+
